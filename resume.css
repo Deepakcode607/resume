@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(234, 236, 238);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(99, 99, 100);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(162, 191, 194);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+hr.hr1{
+    border-top: 1px solid black
+}
+hr.hr2{
+    border-top: 1px solid black
+}
+hr.hr3{
+    border-top: 1px solid black
+}
+hr.hr4{
+    border-top: 1px solid black
+}
+hr.hr5{
+    border-top: 1px solid black
+}
+
